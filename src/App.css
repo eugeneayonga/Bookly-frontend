@@ -20,6 +20,11 @@ hr {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: rgb(10, 10, 79);
+  color: white;
+}
+
 .navbar {
   margin: 0px;
   position: fixed;
@@ -58,8 +63,6 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
-  /* border-style: solid;
-  border-color: rgb(105, 122, 112); */
   border-style: none;
   border-width: 4px;
   margin: 70px;
@@ -72,7 +75,7 @@ input {
   margin: 10px;
   border-radius: 9.5px;
   font-size: 18px;
-  color: rgb(60, 59, 59);
+  color: black;
 }
 
 textarea {
@@ -128,5 +131,6 @@ img {
   justify-self: auto;
   margin-right: 20px;
   font-weight: bold;
-  background-color: white;
+  background-color: black;
+  border-radius: 9.5px;
 }
