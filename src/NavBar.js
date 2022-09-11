@@ -12,7 +12,7 @@ function NavBar() {
           <button className="button">Books</button>
         </NavLink>
         <NavLink to="/formpage">
-          <button className="button">Add New Books</button>
+          <button className="button">Add Book</button>
         </NavLink>
       </div>
     </>
