@@ -42,7 +42,7 @@ Welcome to Bookly! Your one stop catalogue for awesome books where a user can:
 On the terminal, run npm install then npm start.
 *****
 ## Live Link
-Or you can access the web application directly via this https://quotex-api.herokuapp.com/
+Or you can access the web application directly via this https://my-bookly-app.herokuapp.com/
 *****
 
 ## Technologies Used
