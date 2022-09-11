@@ -4,7 +4,6 @@ import SearchBar from "./SearchBar";
 const Books = ({
   booksToDisplay,
   addReview,
-
   searchTerm,
   onSearch,
   handleUpdateLikes,
@@ -24,7 +23,6 @@ const Books = ({
 
   return (
     <div>
-      {/* <h6>Search by book title: </h6> */}
       <SearchBar searchTerm={searchTerm} onSearch={onSearch} />
       <u>
         <h1>Catalogue</h1>
@@ -34,4 +32,6 @@ const Books = ({
     </div>
   );
 };
+
+
 export default Books;
