@@ -6,7 +6,7 @@ const Home = () => {
       <div>
         <h1>Bookly</h1>
         <p>
-          Welcome to Bookly! Your one stop catalogue for awesome books!
+          Welcome to Bookly! Your one stop catalogue for awesome books.
         </p>
         <img
           alt="Attic Bookshelf"

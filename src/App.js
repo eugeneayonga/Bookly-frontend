@@ -6,10 +6,12 @@ import FormPage from "./FormPage";
 import { Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+
 function App() {
   const [books, setBooks] = useState([]);
   const [reviews, setReviews] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+
   useEffect(() => {
     fetch(`http://localhost:9292/books`)
       .then((response) => response.json())
@@ -18,10 +20,12 @@ function App() {
       });
   }, []);
 
+
   function addBooks(newBook) {
     const updatedBooks = [newBook, ...books];
     setBooks(updatedBooks);
   }
+
 
   function addReview(newReview) {
     const bookToUpdate = books.find((book) => {
@@ -37,12 +41,15 @@ function App() {
     setReviews(updatedReviews);
   }
 
+
   function handleUpdateLikes(updateLikes) {
     const updatedLikes = books.map((book) => {
       return book.id === updateLikes.id ? updateLikes : book;
     });
     setBooks(updatedLikes);
   }
+
+
   function handleDeleteReview(deletedReview) {
     const bookToUpdate = books.find((book) => {
       return book.id === deletedReview.book_id;
@@ -59,9 +66,11 @@ function App() {
     setReviews(updatedReview);
   }
 
+
   const booksToDisplay = books.filter((book) => {
     return book.title.toLowerCase().includes(searchTerm.toLowerCase());
   });
+
 
   return (
     <div className="App">
@@ -88,5 +97,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

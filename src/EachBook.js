@@ -44,7 +44,7 @@ const EachBook = ({
     <li className="noBullet" key={review.id}>
       {/* <br /> */}
       <button className="deleteButton" onClick={() => deleteReview(review.id)}>
-      🗑{" "}
+      🗑️{" "}
       </button>
       {review.text}
     </li>
@@ -57,7 +57,7 @@ const EachBook = ({
         <h4>{book.author}</h4>
 
         <button className="button" onClick={updateLikes}>
-          Likes: {book.likes}
+        👍 {book.likes}
         </button>
         <br />
         <button className="button" onClick={showReview}>
