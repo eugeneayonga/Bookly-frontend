@@ -5,7 +5,6 @@ const EachBook = ({
   book,
   handleUpdateLikes,
   handleDeleteReview,
-
   addReview,
 }) => {
   const [displayReview, setDisplayReview] = useState(false);
@@ -14,6 +13,7 @@ const EachBook = ({
     event.preventDefault();
     setDisplayReview(!displayReview);
   };
+
 
   function updateLikes() {
     const addLikes = {
@@ -31,6 +31,7 @@ const EachBook = ({
       .then(handleUpdateLikes);
   }
 
+
   function deleteReview(id) {
     fetch(`http://localhost:9292/reviews/${id}`, {
       method: "DELETE",
@@ -39,6 +40,7 @@ const EachBook = ({
       .then((response) => response.json())
       .then((data) => handleDeleteReview(data));
   }
+
 
   const eachReview = book.reviews?.map((review) => (
     <li className="noBullet" key={review.id}>
@@ -49,6 +51,7 @@ const EachBook = ({
       {review.text}
     </li>
   ));
+
 
   return (
     <>
@@ -71,5 +74,6 @@ const EachBook = ({
     </>
   );
 };
+
 
 export default EachBook;
