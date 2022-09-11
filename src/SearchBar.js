@@ -8,10 +8,11 @@ const SearchBar = ({ searchTerm, onSearch }) => {
         id="search"
         value={searchTerm}
         placeholder="Search by book title"
-        onChange={(e) => onSearch(e.target.value)}
+        onChange={(event) => onSearch(event.target.value)}
       />
     </div>
   );
 };
+
 
 export default SearchBar;
