@@ -1,3 +1,66 @@
+# Bookly
+
+### Author : Eugene Ayonga 11th September 2022
+****
+## Project Description
+Welcome to Bookly! Your one stop catalogue for awesome books where a user can:
+
+1. Create a new book and add a review to it.
+2. Read/see all currently catalogued books upon app start; and search a book by title.
+3. Update the number of like a book receives.
+4. Delete a book review.
+
+
+## SCREENSHOT(S)
+![QX1](https://user-images.githubusercontent.com/64194654/182030881-aafc80b4-bc6a-4f54-b4cb-feb8039d893e.png)
+
+![QX2](https://user-images.githubusercontent.com/64194654/182031023-46d96d9f-b1ad-4117-b630-b4e31a76228c.png)
+
+![QX3](https://user-images.githubusercontent.com/64194654/182031041-4ab87245-a995-4d10-afe8-e6f1212335e9.png)
+
+![QX4](https://user-images.githubusercontent.com/64194654/182031105-fc4f9506-5579-49d6-a436-5d889c51f483.png)
+
+![QX5](https://user-images.githubusercontent.com/64194654/182031125-37df876f-7e66-4a53-9b9c-abbe4a4fef0e.png)
+
+![QX6](https://user-images.githubusercontent.com/64194654/182031144-af584300-6bf4-4df5-a12f-4c2803e7c4e4.png)
+
+![QX7](https://user-images.githubusercontent.com/64194654/182031163-9e1bf5fe-e1a8-497a-bd5e-f3ba6d09091f.png)
+
+
+********
+## SetUp Instruction
+### Requirements
+* [HTML](lang Url)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+
+
+### Getting Files
+* Fork the repo
+- Create a new branch in your terminal (git checkout -b improve-feature)
+- Install the prerequisites
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
+
+## How To Run It
+On the terminal, run npm install then npm start.
+*****
+## Live Link
+Or you can access the web application directly via this https://quotex-api.herokuapp.com/
+*****
+
+## Technologies Used
+1. React JS
+2. CSS
+3. Heroku
+
+
+*****
+*********************************************************************************************************************************************
+
 # Getting Started with Create React App
 
 This project was created for phase 3 at Flatiron school. This was built using React, JavaScript, Ruby, Sinatra, HTML, and CSS. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -80,3 +143,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+**********************************************
+
+## Contact Information
+* Email : eugeneayonga@gmail.com
+*****
+## [License](LICENSE)
+[MIT License]
+Copyright (c) 2022 Eugene Ayonga
