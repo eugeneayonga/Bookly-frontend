@@ -7,7 +7,7 @@ const SearchBar = ({ searchTerm, onSearch }) => {
         type="text"
         id="search"
         value={searchTerm}
-        placeholder="What book do you want to look for?"
+        placeholder="Search by book title"
         onChange={(e) => onSearch(e.target.value)}
       />
     </div>

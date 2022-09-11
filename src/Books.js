@@ -24,10 +24,10 @@ const Books = ({
 
   return (
     <div>
-      <h6>Search here by book title to find a book you are looking for: </h6>
+      {/* <h6>Search by book title: </h6> */}
       <SearchBar searchTerm={searchTerm} onSearch={onSearch} />
       <u>
-        <h1>Book List</h1>
+        <h1>Catalogue</h1>
       </u>
       <br />
       {bookList}

@@ -36,11 +36,11 @@ const AddReview = ({ addReview, book }) => {
   return (
     <div>
       <form className="form" onSubmit={handleSubmit}>
-        <h5>Add new review here: </h5>
+        {/* <h5>Add new review here: </h5> */}
 
         <textarea
           type="text"
-          placeholder="Review"
+          placeholder="Post a Review"
           name="text"
           value={newReview.text}
           onChange={handleChange}
