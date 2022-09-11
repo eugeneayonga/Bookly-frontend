@@ -12,6 +12,13 @@ Welcome to Bookly! Your one stop catalogue for awesome books where a user can:
 
 
 ## SCREENSHOT(S)
+![Bookly1](https://user-images.githubusercontent.com/64194654/189532879-fb4a4ce1-119b-4329-81fe-c4f212c127c1.png)
+
+![Bookly2](https://user-images.githubusercontent.com/64194654/189532933-a5d27cd0-42c3-413e-a10e-aeaae8d5aa69.png)
+
+![Bookly3](https://user-images.githubusercontent.com/64194654/189532952-10a643ea-8788-4c69-9f0d-b02f20839193.png)
+
+![Bookly4](https://user-images.githubusercontent.com/64194654/189532965-d4b10eec-52c3-490a-950d-0a80a934632d.png)
 
 ********
 ## SetUp Instruction
