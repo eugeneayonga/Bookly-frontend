@@ -25,7 +25,7 @@ const FormPage = ({ addBooks }) => {
       likes: 0,
     };
 
-    fetch(`http://localhost:9292/books`, {
+    fetch(`https://eugeneayonga.github.io/booklyserver/books`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

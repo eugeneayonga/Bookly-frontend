@@ -13,7 +13,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch(`http://localhost:9292/books`)
+    fetch(`https://eugeneayonga.github.io/booklyserver/books`)
       .then((response) => response.json())
       .then((data) => {
         setBooks(data);

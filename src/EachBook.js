@@ -20,7 +20,7 @@ const EachBook = ({
       likes: book.likes + 1,
     };
 
-    fetch(`http://localhost:9292/books/${book.id}`, {
+    fetch(`https://eugeneayonga.github.io/booklyserver/books/${book.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +33,7 @@ const EachBook = ({
 
 
   function deleteReview(id) {
-    fetch(`http://localhost:9292/reviews/${id}`, {
+    fetch(`https://eugeneayonga.github.io/booklyserver/reviews/${id}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
     })
